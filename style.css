@@ -1,0 +1,36 @@
+.one {
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.two {
+    background-color: burlywood;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    border: 0.2px solid #000;
+    color: #000;
+    background: #e6e4e4;
+    padding: 5px;
+    border-radius: 1px;
+}
+button {
+    background-color: #fff;
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: slategray;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: darkslategray
+    href="imagegallery.html"
+}
