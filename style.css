@@ -34,3 +34,7 @@ button:active {
     background-color: darkslategray
     href="imagegallery.html"
 }
+
+div:nth-child(4) {
+    background:plum ;
+}
