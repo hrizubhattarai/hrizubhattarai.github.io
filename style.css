@@ -9,6 +9,7 @@
     background-color: burlywood;
     border-radius: 10px;
 }
+
 a {
     text-decoration: none;
     border: 0.2px solid #000;
@@ -17,6 +18,7 @@ a {
     padding: 5px;
     border-radius: 1px;
 }
+
 button {
     background-color: #fff;
     border: solid 1px gray;
@@ -31,10 +33,29 @@ button:hover {
 }
 
 button:active {
-    background-color: darkslategray
-    href="imagegallery.html"
+    background-color: darkslategray href="imagegallery.html"
 }
 
 div:nth-child(4) {
-    background:plum ;
+    background: plum;
 }
+
+div {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border: 15px solid black;
+    background: burlywood;
+font-size: 2em;
+overflow-y: auto;
+  }
+  
+  .content-box {
+    box-sizing: content-box;
+    
+  }
+  
+ .sti {
+position: relative;
+font-size: 45px;
+ }
