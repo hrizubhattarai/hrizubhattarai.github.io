@@ -43,9 +43,10 @@ div:nth-child(4) {
 div {
     width: 90%;
     height: 150px;
-    padding: 10px;
-    border: 15px solid black;
+    padding: 30px;
+    border: 5px solid whitesmoke;
     background: burlywood;
+    margin: 3pc;
 font-size: 2em;
 overflow-y: auto;
   }
@@ -56,6 +57,9 @@ overflow-y: auto;
   }
   
  .sti {
-position: relative;
+position: sticky;
 font-size: 45px;
+transform: translate(10px, 20px);
  }
+
+ 
