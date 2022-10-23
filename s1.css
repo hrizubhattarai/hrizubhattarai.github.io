@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    flex-direction:inherit;
+    justify-content: space-evenly;
+    align-items: center;
+    width: min-content;
+  }
+
+.a{
+    float:left
+}
