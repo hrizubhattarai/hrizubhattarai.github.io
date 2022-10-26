@@ -8,10 +8,10 @@
 }
 
 
-@media screen and (max-width: 350px) {
+@media screen and (min-width: 550px) {
   .flex-container {
     width: 50%;
-    background-color: blue;
+    background-color: lightblue;
   }
 }
 
