@@ -48,19 +48,17 @@ div {
     border: 5px solid whitesmoke;
     background: burlywood;
     margin: 3pc;
-font-size: 2em;
-overflow-y: auto;
-  }
-  
-  .content-box {
-    box-sizing: content-box;
-    
-  }
-  
- .sti {
-position: sticky;
-font-size: 45px;
-transform: translate(10px, 20px);
- }
+    font-size: 2em;
+    overflow-y: auto;
+}
 
- 
+.content-box {
+    box-sizing: content-box;
+
+}
+
+.sti {
+    position: sticky;
+    font-size: 45px;
+    transform: translate(10px, 20px);
+}
