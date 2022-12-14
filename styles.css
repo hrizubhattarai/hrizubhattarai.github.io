@@ -1,110 +1,146 @@
+body {
 
-/* Resetting the document */
+  margin: 0;
+
+  min-width: 250px;
+
+}
+/* Includes padding and border in element's width and height */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
 }
 
-/* Styiling different sections*/
-header {
-    background: linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgb(235, 115, 115) 50%, rgb(242, 193, 125) 100%);
-    padding: 30px 40px;
-    color: white;
-    text-align: center;
+/* add margin and padding*/
+
+ul {
+
+  margin: 0;
+  padding: 0px;
 }
 
-h1 {
-    font-family: 'Acme', sans-serif;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-    ;
-}
-
-input {
-    width: 75%;
-    margin-right: 0;
-    padding: 10px;
-    border: none;
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.addBtn {
-    width: 25%;
-    padding: 7px;
-    margin-left: 0;
-    background: #d9d9d9;
-    color: black;
-    text-align: center;
-    font-size: 14px;
-    cursor: hand;
-    transition: 0.3s;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-.addBtn:hover {
-    background-color: #bbb;
-    color: #FFF;
-}
-
+/* Style the list items */
 
 ul li {
-    
-    cursor: pointer;
-    position: relative;
-    padding: 12px 8px 12px 40px;
-    list-style-type: none;
-    background:plum;
-    font-size: 14px;
-    transition: 0.2s;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 30px;
-    margin: 15px;
+
+  cursor: pointer;
+  position: relative;
+  padding: 10px 8px 10px 40px;
+  list-style-type: none;
+  background: pink;
+  font-size: 18px;
+  margin-top: 5px;
+  border-radius: 20px;
+
+  /* make the list items unselectable */
+
+  user-select: none;
 
 }
 
-/* every odd number of item on the list is a different color */
-ul li:nth-child(odd) {
-    background: pink
-}
 
-/* Darker background-color on hover */
+
+/* Grey background-color on hover */
+
 ul li:hover {
-    background: rgb(91, 87, 87);
+
+  background: lightgray;
+
 }
 
-/* When clicked on, add a background color and strike out text */
-ul li.checked {
-    background: rgb(131, 214, 7);
-    color: #fff;
+/* Create alternate color among list items */
+
+ul li:nth-child(odd) {
+
+  background: plum;
+
+}
+/* close button */
+
+.close {
+  position: absolute;
+  padding: 10PX 10PX 5PX 10PX;
+  border-radius: 20px;
+  right: 0; /*fixes position of the cross*/
+  top: 0;
 }
 
-/* Add a "checked" mark when clicked on */
-ul li.checked::before {
-    content: "";
-    position: absolute;
-    border-color: #fff;
-    border-style: solid;
-    border-width: 0 1px 2px 0;
-    top: 10px;
-    left: 10px;
-    transform: rotate(45deg);
-    height: 17px;
-    width: 7px;
+
+
+.close:hover {
+
+  background-color: red;
+  color: white;
 }
 
-/* trash button */
-.far {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 12px 16px 12px 16px;
+
+
+.header {
+
+  background-color: purple;
+  padding: 30px 50px;
+  color: white;
+  text-align: center;
+
 }
 
-.far:hover {
-    background-color: tomato;
-    color: white;
-    border-radius: 20px;
+.header:after {
+
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Style input */
+
+input {
+
+
+  border-radius: 20px;
+
+  width: 95%;
+
+  padding: 10px;
+
+  float: left;
+
+  font-size: 16px;
+
+}
+
+
+
+/* "Add" button */
+
+.addBtn {
+
+  padding: 7px;
+
+  width: 5%;
+
+  background: #66b6d2;
+
+  color: black;
+
+  float: left;
+
+  text-align: center;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  border-radius: 20px;
+
+}
+
+
+
+.addBtn:hover {
+
+  background-color: #2596be;
+
 }
